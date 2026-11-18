@@ -1,0 +1,17 @@
+# Environment files and secrets
+.env
+.env.*
+config.local.php
+
+# Database backups
+*.sql
+*.sql.zip
+
+# Logs and temporary files
+*.log
+*.tmp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
