@@ -2,15 +2,13 @@
 
 **Developed by Zoha Abdul Sattar**
 
-🚧 **PROJECT SHOWCASE COMING SOON!**
+A PHP and MySQL-based web application designed to simplify school fee management and financial record-keeping.
 
 ## 📌 About the Project
 
-The Great Chancellors School Fee Management System is a web-based application developed using PHP and MySQL to simplify school fee management and financial record-keeping.
+The Great Chancellors School Fee Management System is a web-based application developed using PHP and MySQL to organize student fee records, family billing, payment information, school expenses, and financial reports through a centralized system.
 
-The project aims to organize student fee records, family billing, payment information, school expenses, and financial reports through a centralized system.
-
-The complete project documentation, screenshots, and source code will be added soon.
+The project aims to make school financial operations more organized, efficient, and manageable.
 
 ## 💻 Technology Stack
 
@@ -19,6 +17,9 @@ The complete project documentation, screenshots, and source code will be added s
 * JavaScript
 * PHP
 * MySQL
+* Bootstrap
+* PHPMailer
+* Composer
 * XAMPP
 
 ## ✨ Key Features
@@ -30,22 +31,77 @@ The complete project documentation, screenshots, and source code will be added s
 * 📊 Financial Reports
 * 🏫 School Expense Management
 * 🗄️ Database Management
+* 🔐 User Authentication
+* 📧 Email OTP Verification
+* 🔑 Forgot Password & Password Reset
 
-*Features will be documented according to the final project implementation.*
+*Features are based on the current project implementation.*
+
+## 📂 Project Structure
+
+```text
+school_fee_system/
+│
+├── assets/
+├── includes/
+├── modules/
+├── uploads/
+├── vendor/
+├── .gitattributes
+├── .gitignore
+├── composer.json
+├── composer.lock
+└── index.php
+```
 
 ## 📸 Project Screenshots
 
-Coming Soon!
+Project screenshots and interface previews will be added soon.
 
 ## ⚙️ Installation Guide
 
-Installation instructions will be added after the source code has been reviewed and prepared for publication.
+### Requirements
+
+* XAMPP
+* PHP
+* MySQL
+* Composer
+
+### Setup Instructions
+
+1. Clone or download this repository.
+2. Place the project folder inside XAMPP's `htdocs` directory.
+3. Start Apache and MySQL from XAMPP Control Panel.
+4. Create a MySQL database named `school_fee`.
+5. Import your database backup into the database.
+6. Configure your local database connection in `includes/db.php`.
+7. Install project dependencies using Composer:
+
+```bash
+composer install
+```
+
+8. Create your local `config.local.php` file for SMTP email configuration.
+9. Open the project in your browser:
+
+```text
+http://localhost/school_fee_system/
+```
+
+**Note:** Database backup files and private configuration files are not included in this public repository.
+
+## 🔐 Security
+
+* Private configuration files are excluded using `.gitignore`.
+* Gmail SMTP credentials are stored in a local configuration file.
+* Database backups are excluded from the public repository.
+* User passwords should be securely hashed.
 
 ## 📍 Project Status
 
-**Status:** Repository preparation in progress.
+**Status:** Source code uploaded to GitHub.
 
-The project screenshots, source code, setup instructions, and complete documentation will be added soon.
+Further documentation, screenshots, and improvements will be added as the project develops.
 
 ## 👩‍💻 Developer
 
@@ -55,6 +111,8 @@ Computer Teacher | Full-Stack Web Developer
 
 **Technical Focus:** PHP, MySQL, Web Development, and Database Management.
 
+GitHub: [@zohaabdulsattar02-dev](https://github.com/zohaabdulsattar02-dev)
+
 ---
 
-⭐ **Stay tuned for the complete project showcase!**
+⭐ If you find this project interesting, consider giving this repository a star!
